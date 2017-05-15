@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShopAholic.WomenForm"
+             NavigationPage.HasNavigationBar="True">
+
+   <ScrollView>
+        <StackLayout BackgroundColor="#BBDEFB"  HeightRequest="400">
+            <StackLayout>
+                <StackLayout Orientation="Horizontal" Padding="20">
+                    <Label Text="Women Clothing" FontAttributes="Bold" FontSize="Medium" TextColor="Black" HorizontalOptions="Center"></Label>
+                </StackLayout>
+
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+
+                        <StackLayout BackgroundColor="#E0E0E0" Orientation="Horizontal" HorizontalOptions="StartAndExpand" Padding="10">
+                            <StackLayout BackgroundColor="White" HeightRequest="150">
+                                <Image Source="wom1.png" WidthRequest="98" />
+                                <Label Text="Kabute" TextColor="Black" TranslationY="25"/>
+                                <Label Text="5.00 PHP" TextColor="Black" TranslationY="25"/>
+                                <StackLayout x:Name="cart" Orientation="Horizontal" HorizontalOptions="End">
+                                    <Image Source="addtocart.png"/>
+                                </StackLayout>
+                            </StackLayout>
+
+                            <StackLayout BackgroundColor="White" HeightRequest="150">
+                                <Image Source="wom2.png" WidthRequest="98" />
+                                <Label Text="Kabute" TextColor="Black" TranslationY="25"/>
+                                <Label Text="5.00 PHP" TextColor="Black" TranslationY="25"/>
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+                                    <Image Source="addtocart.png"/>
+                                </StackLayout>
+                            </StackLayout>
+
+                            <StackLayout BackgroundColor="White" HeightRequest="150">
+                                <Image Source="wom3.png" WidthRequest="98" />
+                                <Label Text="Kabute" TextColor="Black" TranslationY="25"/>
+                                <Label Text="5.00 PHP" TextColor="Black" TranslationY="25"/>
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+                                    <Image Source="addtocart.png"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+
+                    <StackLayout BackgroundColor="#E0E0E0" Orientation="Horizontal" HorizontalOptions="StartAndExpand" Padding="10">
+                        <StackLayout BackgroundColor="White" HeightRequest="150">
+                            <Image Source="wom4.png" WidthRequest="98" />
+                            <Label Text="Kabute" TextColor="Black" TranslationY="25"/>
+                            <Label Text="5.00 PHP" TextColor="Black" TranslationY="25"/>
+                            <StackLayout x:Name="cart1" Orientation="Horizontal" HorizontalOptions="End">
+                                <Image Source="addtocart.png"/>
+                            </StackLayout>
+                        </StackLayout>
+
+                        <StackLayout BackgroundColor="White" HeightRequest="150">
+                            <Image Source="wom5.png" WidthRequest="98" />
+                            <Label Text="Kabute" TextColor="Black" TranslationY="25"/>
+                            <Label Text="5.00 PHP" TextColor="Black" TranslationY="25"/>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+                                <Image Source="addtocart.png"/>
+                            </StackLayout>
+                        </StackLayout>
+
+                        <StackLayout BackgroundColor="White" HeightRequest="150">
+                            <Image Source="wom6.png" WidthRequest="98" />
+                            <Label Text="Kabute" TextColor="Black" TranslationY="25"/>
+                            <Label Text="5.00 PHP" TextColor="Black" TranslationY="25"/>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+                                <Image Source="addtocart.png"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+
+                    
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
+    

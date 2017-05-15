@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShopAholic.LoginForm"
+             BackgroundColor="#64B5F6">
+
+    <StackLayout VerticalOptions="Center" Padding="20" BackgroundColor="#90CAF9">
+        <StackLayout VerticalOptions="Center" WidthRequest="80" HeightRequest="80" Padding="10">
+            <Image Source="drawable/login.png" VerticalOptions="Start"/>
+        </StackLayout>
+        <Label FontSize="Large" FontAttributes="Bold" TextColor="White" TranslationX="20" FontFamily="Century Gothic">Log-in</Label>
+        <Frame CornerRadius="10">
+        <Entry x:Name="txtUsername" Placeholder="Username" FontSize="Small" BackgroundColor="White"/>
+        </Frame>
+        <Frame CornerRadius="10">
+        <Entry x:Name="txtPassword" IsPassword="True" Placeholder="Password" FontSize="Small" BackgroundColor="White"/>
+        </Frame>
+        <Button x:Name="btnLogin" Clicked="btnnLogin" Text="Login" BackgroundColor="Beige" TextColor="Black"/>
+    </StackLayout>
+    
+</ContentPage>

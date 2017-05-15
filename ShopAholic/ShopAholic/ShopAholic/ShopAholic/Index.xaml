@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShopAholic.Detail"
+             Title="Menu"   
+             >
+
+
+    <ContentPage Icon="home.png"
+                 Title="Home">
+        <ContentPage.Content>
+            <ScrollView>
+             <StackLayout BackgroundColor="#BBDEFB"  HeightRequest="850">
+           <StackLayout>
+           <StackLayout Orientation="Horizontal" Padding="20">
+                            <Label Text="Featured Products" FontAttributes="Bold" FontSize="Small" TextColor="Black" HorizontalOptions="Start"></Label>
+                            <Button x:Name="btnFProds" Clicked="btnFP" Text="More" BackgroundColor="#64B5F6" HorizontalOptions="EndAndExpand"/>
+                        </StackLayout>
+
+                        <StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                <StackLayout BackgroundColor="White" HeightRequest="150">
+                                    <Image Source="kabute.ico" WidthRequest="98" />
+                                    <Label Text="Kabute" TextColor="Black" TranslationY="45"/>
+                                    <Label Text="5.00 PHP" TextColor="Black" TranslationY="45"/>
+                                    <StackLayout x:Name="cart" Orientation="Horizontal" HorizontalOptions="End">
+                                        <Image Source="addtocart.png"/>
+                                    </StackLayout>
+                                </StackLayout>
+
+                                <StackLayout BackgroundColor="White" HeightRequest="150">
+                                    <Image Source="kabute.ico" WidthRequest="98" />
+                                    <Label Text="Kabute" TextColor="Black" TranslationY="45"/>
+                                    <Label Text="5.00 PHP" TextColor="Black" TranslationY="45"/>
+                                    <StackLayout x:Name="cart2" Orientation="Horizontal" HorizontalOptions="End">
+                                        <Image Source="addtocart.png"/>
+                                    </StackLayout>
+                                </StackLayout>
+
+                                <StackLayout BackgroundColor="White" HeightRequest="150">
+                                    <Image Source="kabute.ico" WidthRequest="98" />
+                                    <Label Text="Kabute" TextColor="Black" TranslationY="45"/>
+                                    <Label Text="5.00 PHP" TextColor="Black" TranslationY="45"/>
+                                    <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+                                        <Image Source="addtocart.png"/>
+                                    </StackLayout>
+                                </StackLayout>
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+
+                    <StackLayout BackgroundColor="#BBDEFB" TranslationY="50">
+                        <StackLayout>
+                            <StackLayout Orientation="Horizontal" Padding="20">
+                                <Label Text="Best Seller" FontAttributes="Bold" FontSize="Small" TextColor="Black" HorizontalOptions="Start"></Label>
+                                <Button x:Name="btnBSProds" Clicked="btnBSP" Text="More" BackgroundColor="#64B5F6" HorizontalOptions="EndAndExpand"/>
+                            </StackLayout>
+
+                            <StackLayout>
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                    <StackLayout BackgroundColor="White" HeightRequest="150">
+                                        <Image Source="kabute.ico" WidthRequest="98" />
+                                        <Label Text="Kabute" TextColor="Black" TranslationY="45"/>
+                                        <Label Text="5.00 PHP" TextColor="Black" TranslationY="45"/>
+                                        <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+                                            <Image Source="addtocart.png"/>
+                                        </StackLayout>
+                                    </StackLayout>
+
+                                    <StackLayout BackgroundColor="White" HeightRequest="150">
+                                        <Image Source="kabute.ico" WidthRequest="98" />
+                                        <Label Text="Kabute" TextColor="Black" TranslationY="45"/>
+                                        <Label Text="5.00 PHP" TextColor="Black" TranslationY="45"/>
+                                        <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+                                            <Image Source="addtocart.png"/>
+                                        </StackLayout>
+                                    </StackLayout>
+
+                                    <StackLayout BackgroundColor="White" HeightRequest="150">
+                                        <Image Source="kabute.ico" WidthRequest="98" />
+                                        <Label Text="Kabute" TextColor="Black" TranslationY="45"/>
+                                        <Label Text="5.00 PHP" TextColor="Black" TranslationY="45"/>
+                                        <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+                                            <Image Source="addtocart.png"/>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </StackLayout>
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+
+
+                    <StackLayout BackgroundColor="#BBDEFB" TranslationY="80">
+                        <StackLayout>
+                            <StackLayout Orientation="Horizontal" Padding="20">
+                                <Label Text="On Sale" FontAttributes="Bold" FontSize="Small" TextColor="Black" HorizontalOptions="Start"></Label>
+                                <Button x:Name="btnOSProds" Clicked="btnOSP" Text="More" BackgroundColor="#64B5F6" HorizontalOptions="EndAndExpand"/>
+                            </StackLayout>
+
+                            <StackLayout>
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                                    <StackLayout BackgroundColor="White" HeightRequest="150">
+                                        <Image Source="kabute.ico" WidthRequest="98" />
+                                        <Label Text="Kabute" TextColor="Black" TranslationY="45"/>
+                                        <Label Text="5.00 PHP" TextColor="Black" TranslationY="45"/>
+                                        <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+                                            <Image Source="addtocart.png"/>
+                                        </StackLayout>
+                                    </StackLayout>
+
+                                    <StackLayout BackgroundColor="White" HeightRequest="150">
+                                        <Image Source="kabute.ico" WidthRequest="98" />
+                                        <Label Text="Kabute" TextColor="Black" TranslationY="45"/>
+                                        <Label Text="5.00 PHP" TextColor="Black" TranslationY="45"/>
+                                        <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+                                            <Image Source="addtocart.png"/>
+                                        </StackLayout>
+                                    </StackLayout>
+
+                                    <StackLayout BackgroundColor="White" HeightRequest="150">
+                                        <Image Source="kabute.ico" WidthRequest="98" />
+                                        <Label Text="Kabute" TextColor="Black" TranslationY="45"/>
+                                        <Label Text="5.00 PHP" TextColor="Black" TranslationY="45"/>
+                                        <StackLayout Orientation="Horizontal" HorizontalOptions="End">
+                                            <Image Source="addtocart.png"/>
+                                        </StackLayout>
+                                    </StackLayout>
+
+                                </StackLayout>
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </ContentPage.Content>
+      </ContentPage>
+  
+    <ContentPage Icon="categories.png"
+                 Title="Categories">
+        <ContentPage.Content>
+            <ScrollView>
+                <StackLayout BackgroundColor="#BBDEFB">
+                    <StackLayout TranslationY="20" >
+                        
+                        <StackLayout>
+                            <StackLayout WidthRequest="100" HeightRequest="500" Orientation="Vertical" >
+
+                                <StackLayout x:Name="wom" BackgroundColor="White" HeightRequest="140">
+                                    <Image Source="women.png" WidthRequest="50" HeightRequest="140" VerticalOptions="Center"/>
+                                </StackLayout>
+
+                                <StackLayout x:Name="men" BackgroundColor="White" HeightRequest="140">
+                                    <Image Source="men.png" WidthRequest="50" HeightRequest="140" VerticalOptions="Center"/>
+                                 </StackLayout>
+
+                                <StackLayout x:Name="kids" BackgroundColor="White" HeightRequest="140">
+                                    <Image Source="kids1.png" WidthRequest="50" HeightRequest="140" VerticalOptions="Center"/>
+                                 </StackLayout>
+                            </StackLayout>
+                        </StackLayout>
+                    </StackLayout>
+                  
+                </StackLayout>
+            </ScrollView>
+        </ContentPage.Content>
+    </ContentPage>
+
+    <ContentPage Icon="addtocart.png"
+                 Title="Cart">
+        <ContentPage.Content>
+            <StackLayout>
+
+                <Label Text="Cart"/>
+
+            </StackLayout>
+            
+    
+        </ContentPage.Content>
+    </ContentPage>
+
+</TabbedPage>
